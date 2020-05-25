@@ -1,0 +1,663 @@
+{
+  "info": {
+    "_postman_id": "f9a5856b-5e78-4499-bc97-a2801e4ded02",
+    "name": "Zeta",
+    "description": "This is design and testing for the post of principle engineer.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Ride Request",
+      "item": [
+        {
+          "name": "Request Ride male",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "type": "text",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"name\":\"Rajendar\",\n\t\"gender\":\"MALE\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/nova/ride_request",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "nova",
+                "ride_request"
+              ]
+            },
+            "description": "Register a customer to book cab"
+          },
+          "response": []
+        },
+        {
+          "name": "Request Ride female",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "type": "text",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"name\":\"Suman\",\n\t\"gender\":\"FEMALE\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/nova/ride_request",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "nova",
+                "ride_request"
+              ]
+            },
+            "description": "Register a customer to book cab"
+          },
+          "response": []
+        },
+        {
+          "name": "Request Ride - 1  male",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "type": "text",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"name\":\"Rajendar-1\",\n\t\"gender\":\"MALE\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/nova/ride_request",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "nova",
+                "ride_request"
+              ]
+            },
+            "description": "Register a customer to book cab"
+          },
+          "response": []
+        },
+        {
+          "name": "Request Ride - 1   female",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "type": "text",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"name\":\"SUMAN-1\",\n\t\"gender\":\"FEMALE\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/nova/ride_request",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "nova",
+                "ride_request"
+              ]
+            },
+            "description": "Register a customer to book cab"
+          },
+          "response": []
+        },
+        {
+          "name": "Request Ride - 2  male",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "type": "text",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"name\":\"Rajendar - 2\",\n\t\"gender\":\"MALE\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/nova/ride_request",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "nova",
+                "ride_request"
+              ]
+            },
+            "description": "Register a customer to book cab"
+          },
+          "response": []
+        },
+        {
+          "name": "Request Ride - 2   female",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "type": "text",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"name\":\"SUMAN - 2\",\n\t\"gender\":\"FEMALE\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/nova/ride_request",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "nova",
+                "ride_request"
+              ]
+            },
+            "description": "Register a customer to book cab"
+          },
+          "response": []
+        },
+        {
+          "name": "Request Ride -3 male",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "type": "text",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"name\":\"Rajendar - 3\",\n\t\"gender\":\"MALE\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/nova/ride_request",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "nova",
+                "ride_request"
+              ]
+            },
+            "description": "Register a customer to book cab"
+          },
+          "response": []
+        },
+        {
+          "name": "Request Ride -3  female",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "type": "text",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"name\":\"SUMAN - 3\",\n\t\"gender\":\"FEMALE\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/nova/ride_request",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "nova",
+                "ride_request"
+              ]
+            },
+            "description": "Register a customer to book cab"
+          },
+          "response": []
+        },
+        {
+          "name": "Request Ride",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "type": "text",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"name\":\"Rajendar\",\n\t\"gender\":\"MALE\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/nova/ride_request",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "nova",
+                "ride_request"
+              ]
+            },
+            "description": "Register a customer to book cab"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Register Customer",
+      "item": [
+        {
+          "name": "Register Customer male",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "type": "text",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"name\":\"Rajendar\",\n\t\"gender\":\"MALE\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/nova/register_customer",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "nova",
+                "register_customer"
+              ]
+            },
+            "description": "Register a customer to book cab"
+          },
+          "response": []
+        },
+        {
+          "name": "Register Customer female",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "type": "text",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"name\":\"Suman\",\n\t\"gender\":\"FEMALE\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/nova/register_customer",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "nova",
+                "register_customer"
+              ]
+            },
+            "description": "Register a customer to book cab"
+          },
+          "response": []
+        },
+        {
+          "name": "Register Customer - 1  male",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "type": "text",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"name\":\"Rajendar-1\",\n\t\"gender\":\"MALE\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/nova/register_customer",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "nova",
+                "register_customer"
+              ]
+            },
+            "description": "Register a customer to book cab"
+          },
+          "response": []
+        },
+        {
+          "name": "Register Customer - 1   female",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "type": "text",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"name\":\"SUMAN-1\",\n\t\"gender\":\"FEMALE\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/nova/register_customer",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "nova",
+                "register_customer"
+              ]
+            },
+            "description": "Register a customer to book cab"
+          },
+          "response": []
+        },
+        {
+          "name": "Register Customer - 2  male",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "type": "text",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"name\":\"Rajendar - 2\",\n\t\"gender\":\"MALE\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/nova/register_customer",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "nova",
+                "register_customer"
+              ]
+            },
+            "description": "Register a customer to book cab"
+          },
+          "response": []
+        },
+        {
+          "name": "Register Customer - 2   female",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "type": "text",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"name\":\"SUMAN - 2\",\n\t\"gender\":\"FEMALE\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/nova/register_customer",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "nova",
+                "register_customer"
+              ]
+            },
+            "description": "Register a customer to book cab"
+          },
+          "response": []
+        },
+        {
+          "name": "Register Customer -3 male",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "type": "text",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"name\":\"Rajendar - 3\",\n\t\"gender\":\"MALE\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/nova/register_customer",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "nova",
+                "register_customer"
+              ]
+            },
+            "description": "Register a customer to book cab"
+          },
+          "response": []
+        },
+        {
+          "name": "Register Customer -3  female",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "type": "text",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"name\":\"SUMAN - 3\",\n\t\"gender\":\"FEMALE\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/nova/register_customer",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "nova",
+                "register_customer"
+              ]
+            },
+            "description": "Register a customer to book cab"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Offer Ride",
+      "item": [
+        {
+          "name": "Offer Ride",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"regPlate\":\"KA01CA1234\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/nova/ride_offer",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "nova",
+                "ride_offer"
+              ]
+            },
+            "description": "Register a customer to book cab"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Register Car",
+      "item": [
+        {
+          "name": "Register Car",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"regPlate\":\"KA01CA1234\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/nova/register_car",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "nova",
+                "register_car"
+              ]
+            },
+            "description": "Register a customer to book cab"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "hello ride",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/nova/ride/hello",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "nova",
+            "ride",
+            "hello"
+          ]
+        },
+        "description": "hello get end point"
+      },
+      "response": []
+    },
+    {
+      "name": "hello reg",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/nova/reg/hello",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "nova",
+            "reg",
+            "hello"
+          ]
+        },
+        "description": "hello get end point"
+      },
+      "response": []
+    }
+  ]
+}
