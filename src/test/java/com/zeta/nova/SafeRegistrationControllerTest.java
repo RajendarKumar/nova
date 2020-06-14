@@ -1,5 +1,6 @@
 package com.zeta.nova;
 
+import com.zeta.nova.constant.Gender;
 import com.zeta.nova.model.Car;
 import com.zeta.nova.model.Customer;
 import com.zeta.nova.service.api.RegService;
@@ -60,6 +61,34 @@ class SafeRegistrationControllerTest {
         Car car = new Car("KA01CA1234");
 
         ResponseEntity<Boolean> booleanResponseEntity = registrationController.registerCar(car);
+        assertFalse(booleanResponseEntity.getBody());
+        assertTrue(booleanResponseEntity.getStatusCode().is2xxSuccessful());
+    }
+
+    @Test
+    public void testRegisterCustomerTrue(){
+        MockHttpServletRequest request = new MockHttpServletRequest();
+        RequestContextHolder.setRequestAttributes(new ServletRequestAttributes(request));
+
+        when(customerRegService.register(any(Customer.class))).thenReturn(true);
+
+        Customer customer = new Customer("Rajendar", Gender.MALE);
+
+        ResponseEntity<Boolean> booleanResponseEntity = registrationController.registerCustomer(customer);
+        assertTrue(booleanResponseEntity.getBody());
+        assertTrue(booleanResponseEntity.getStatusCode().is2xxSuccessful());
+    }
+
+    @Test
+    public void testRegisterCustomerFalse(){
+        MockHttpServletRequest request = new MockHttpServletRequest();
+        RequestContextHolder.setRequestAttributes(new ServletRequestAttributes(request));
+
+        when(customerRegService.register(any(Customer.class))).thenReturn(false);
+
+        Customer customer = new Customer("Rajendar", Gender.MALE);
+
+        ResponseEntity<Boolean> booleanResponseEntity = registrationController.registerCustomer(customer);
         assertFalse(booleanResponseEntity.getBody());
         assertTrue(booleanResponseEntity.getStatusCode().is2xxSuccessful());
     }
